@@ -1,4 +1,4 @@
-module NativeUi.Elements exposing (text, image, activityIndicator, picker, progressBar, progressView, refreshControl, scrollView, segmentedControl, slider, statusBar, switch, tabBar, textInput, toolbar, touchableHighlight, touchableOpacity, view, {-navigationCardStack, navigationHeader, navigationHeaderTitle-})
+module NativeUi.Elements exposing (text, image, activityIndicator, picker, progressBar, progressView, refreshControl, scrollView, segmentedControl, slider, statusBar, switch, tabBar, textInput, toolbar, touchableHighlight, touchableOpacity, view {-navigationCardStack, navigationHeader, navigationHeaderTitle-})
 
 {-| elm-native-ui Elements
 
