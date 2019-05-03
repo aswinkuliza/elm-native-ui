@@ -290,6 +290,8 @@ var _ohanhi$elm_native_ui$Native_NativeUi = (function () {
     }
     if (ReactNative[node.tagName]) {
       return React.createElement(ReactNative[node.tagName], finalProps);
+    } else if (Helper.tagMap[node.tagName]) {
+      return React.createElement(Helper.tagMap[node.tagName], finalProps);
     } else {
       if (!node.nativeComponent) {
           throw Error('Unable to find a node called ' + node.tagName + ' in ReactNative. Try defining it as a customNode');
